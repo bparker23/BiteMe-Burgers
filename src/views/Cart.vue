@@ -10,7 +10,6 @@
       <div class="product" v-for="item in $root.$data.cart" :key="item.id">
         <div class="info">
           <h1>{{item.name}}</h1>
-          <p>{{item.country}}</p>
         </div>
         <div class="image">
           <img :src="'/images/products/'+item.image">
