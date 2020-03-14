@@ -7,7 +7,7 @@
         <img src="/images/logo.png">
       </router-link>
     </div>
-      
+
 
     <div id="side">
 
@@ -43,6 +43,12 @@
 
   </div>
   <router-view />
+
+  <footer>
+    <div class="footerLink">
+      <a href="https://github.com/bparker23/BiteMe-Burgers.git"> Github </a>
+    </div>
+  </footer>
 </div>
 </template>
 
@@ -98,6 +104,17 @@ body {
 
 .menu-item p {
   margin: 0px;
+}
+
+footer{
+  align-content: center;
+  text-align: center;
+  color: black;
+}
+
+footer a{
+  color:#ffc300;
+  text-decoration: none;
 }
 
 .browse {
